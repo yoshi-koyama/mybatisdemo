@@ -10,7 +10,6 @@ public class NameController {
 
   private final NameMapper nameMapper;
 
-  // constructor injection
   public NameController(NameMapper nameMapper) {
     this.nameMapper = nameMapper;
   }
